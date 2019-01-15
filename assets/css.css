@@ -7,19 +7,25 @@ h1 {
     font-size: 50px;
     background-color: #4aaaa5;
     color: white;
+    display: inline;
     border-color: #cccccc;
-    margin: 0;
+    margin: 18.5%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 0%;
     
+    }
+
+c1 {
+    font-size: 15px;
    }
-   .leftheader {
+   .APC {
        font-size: 25px;
-       background-color: #ffffff
+       background-color: white;
        color: #777777;
-       
-       
+       float: right;
+       clear: both;
+       margin-right: 0%;
+      
     }
 .container {
     width: 960px;
