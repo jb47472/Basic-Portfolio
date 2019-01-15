@@ -41,7 +41,7 @@ h2 {
     
     }
 
-image {
+image {float: left;
     
 }
 
@@ -49,6 +49,9 @@ p {
     font-size: 20px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
+    clear: both;
+}   
     
    
 
