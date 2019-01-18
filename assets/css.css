@@ -1,57 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-font-size: 25px;
+    background-image: repeat;
+    background-image: "https://assets.awwwards.com/awards/images/2015/04/pattern.jpg";
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: auto;
+    color: #777777;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header {
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
 }
 
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 50px;
-    background-color: #4aaaa5;
+    background: #4aaaa5;
     color: white;
-    display: inline;
-    border-color: #cccccc;
-    margin: 18.5%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-    }
-
-c1 {
-    font-size: 15px;
-   }
-   .APC {
-       font-size: 25px;
-       background-color: white;
-       color: #777777;
-       float: right;
-       clear: both;
-       margin-right: 0%;
-      
-    }
-.container {
-    width: 960px;
-    margin: 0 auto;
-    background-color:lightgrey;
+    display: inline-block;
+    padding: 25px;
+    font-size: 30px;
 }
 
-h2 {
-    
-    color: #4aaaa5;
-    margin-left: 2.5%;
-    
-    
-    }
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 25px;
+    text-align: center;
+}
 
-image {float: left;
-    
+nav ul li {
+    display: inline;
+}
+nav a {
+    color:#ccc;
+    text-decoration: none;
 }
 
 p {
-    font-size: 20px;
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    float: right;
-    clear: both;
-}   
-    
-   
+    font-size:16 px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
 
+form label {
+    font-size 18px;
+    display: block;
+}
+
+input, text area {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2 px solid #ccc;
+    padding: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 300px;
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px; 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+}
+.wrapper {
+    width: 960 px;
+    margin: 0 auto;
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 2 px solid #333;
+}
+
+.portfolio-item {
+    position: relative;
+    background-color: rgba (0,0,0, .5)
+    margin-bottom: 20x;
+    width: 45%;
+    float: left;
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+
+
+#left-column {
+    background: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+    width: 960 px;
+    float: left;
+}
+
+#left-column h2 {
+    font-size: 35px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+
+}
+
+#port1 {
+    background: url(../assets/port1.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#port2 {
+    background: url(../assets/port2.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#port3 {
+    background: url(../assets/port3.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#port4 {
+    background: url(../assets/port4.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#port5 {
+    background: url(../assets/port5.jpg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#port6 {
+    background: url(../assets/port6.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
