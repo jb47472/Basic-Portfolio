@@ -3,11 +3,13 @@
 }
 
 body {
-    background-image: repeat;
-    background-image: "https://assets.awwwards.com/awards/images/2015/04/pattern.jpg";
+    
+    background-image: url("roughcloth.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     overflow: auto;
     color: #777777;
+    width: 960px;
+    margin: 0 auto;
 
 }
 
@@ -53,7 +55,7 @@ p {
 }
 
 form label {
-    font-size 18px;
+    font-size: 18px;
     display: block;
 }
 
@@ -68,6 +70,7 @@ input, text area {
 
 textarea {
     height: 300px;
+    width: 100%;
 }
 
 form button {
@@ -79,7 +82,7 @@ form button {
     border: none;
 }
 .wrapper {
-    width: 960 px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -92,13 +95,24 @@ form button {
 .portfolio-item {
     position: relative;
     background-color: rgba (0,0,0, .5)
-    margin-bottom: 20x;
+    margin-bottom: 20px;
     width: 45%;
     float: left;
+    height: 250px;
 }
 
 .portfolio-item:nth-of-type(even) {
     float: right;
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
 
 .clearfix {
@@ -112,7 +126,7 @@ form button {
     background: white;
     padding: 25px;
     border: 2px solid #ccc;
-    width: 960 px;
+    width: 960px;
     float: left;
 }
 
